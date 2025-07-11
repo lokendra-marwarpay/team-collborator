@@ -81,8 +81,8 @@ cd client
 npm run dev
 ```
 
-> 🔗 Frontend usually runs at: [http://localhost:5173](http://localhost:5173)  
-> 🔗 Backend runs at: [http://localhost:5000](http://localhost:5000)
+> 🔗 Frontend usually runs at: [https://team-collab-frontend-yoru.onrender.com](https://team-collab-frontend-yoru.onrender.com)  
+> 🔗 Backend runs at: [https://team-collborator.onrender.com](https://team-collborator.onrender.com)
 
 ---
 
