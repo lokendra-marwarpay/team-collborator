@@ -1,0 +1,78 @@
+# Root
+.env
+.env.* 
+firebase-service-account.json
+.DS_Store
+node_modules
+dist
+*.log
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Dependency directories
+**/node_modules/
+
+# Vite build
+**/dist/
+**/.vite/
+**/.cache/
+
+# VSCode
+.vscode/
+
+# TypeScript
+*.tsbuildinfo
+
+# Firebase
+firebase-debug.log
+.firebaserc
+.firebase/
+
+# Render deploy config (if you have secrets locally)
+render.yaml
+
+# Linux/mac executables
+*.out
+
+# Mac hidden files
+._*
+
+# Coverage reports
+coverage/
+
+# Sockets or pids
+*.pid
+*.seed
+*.pid.lock
+
+# JetBrains
+.idea/
+
+# Local test database dumps or temp files
+dump*.gz
+tmp/
+*.sqlite
+
+# Build output
+**/build/
+**/out/
+
+# Optional for client/ if using React/Vite
+client/.env.local
+client/.env.production
+client/.env.development
+
+# Optional for server/ if using Express
+server/.env.local
+server/.env.production
+server/.env.development
