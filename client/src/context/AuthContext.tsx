@@ -36,6 +36,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
             setUser(firebaseUser || null);
 
             if (firebaseUser) {
+                console.log(firebaseUser)
                 const token = await firebaseUser.getIdToken();
                 localStorage.setItem('token', token);
 
